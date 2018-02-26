@@ -1,0 +1,82 @@
+/*轮播图*/
+/*容器大小设置*/
+.product .swiper-container{width: 100%;height: 100%;overflow: hidden;}
+/*分页器间距*/
+.product .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {margin: 0 8px;}
+/*分页器大小以及样式*/
+.product .swiper-pagination-bullet{width: 20px;height: 10px;border-radius: 0;background-color: #0d1b6f;opacity: 0.5;}
+/*选中的样式*/
+.product .swiper-pagination-bullet-active{width: 50px;opacity: 1;}
+
+
+/*新品推荐-轮播箭头*/
+.new_show{position: relative;}
+.new_show .swiper-button-next {background: url(../images/infor_arrow.png) no-repeat right 0 top 0;right:-100px; top: 350px;width: 38px;height: 72px;background-size: cover;}    
+.new_show .swiper-button-prev {background: url(../images/infor_arrow.png) no-repeat;left: -100px;top: 350px;width: 38px;height: 72px;background-size: cover;}
+
+/*矩形区域*/
+.banner .inner{position: absolute;top: 0;left: 50%;margin-left: -600px;}
+.banner{height: 500px;position: relative;text-align: center;}
+.banner_big .rect{top:33%;}
+.banner_big .rect .text{top: 25%;right: 15%;}
+
+/*页面标题*/
+.title{text-align: center;margin-bottom: 40px;}
+.title h3{line-height: 40px;height: 40px;font-size: 30px;font-weight: normal;}
+.title h3 span:nth-child(1){color: #000;}
+.title h3 span:nth-child(2){color: #999;}
+.title p{font-size: 17px;color: #999;line-height: 20px;height: 20px;}
+
+.product .main{padding-top: 40px;}
+.product .new_show{padding: 80px 0 50px 0;}
+
+/*产品列表*/
+.list{background-color: #f3f3f3;width: 100%;}
+.list .inner{padding: 20px 0;}
+.list h3{height: 50px;line-height: 50px;font-size: 22px;}
+.list li{float: left;width: 30%;height: 500px;border: 2px solid #d3d1d1;background-color: #fff;position: relative;}
+.list li:hover{border-color: #b60909;}
+.list li:nth-child(3n-1){margin: 0 3%;}
+.list img{width: 100%;}
+.list p{text-align: center;height: 30px;line-height: 30px;font-size: 18px;}
+.list .name{color: #666;font-weight: bold;}
+.list .name span{color: #b60909;font-size: 22px;}
+.list .Ename{color: #bbb;}
+.list .price{color: #b60909;font-weight: bold;font-size: 24px;}
+
+/*配件*/
+#fittings li{height: 210px;overflow: hidden;width: 280px;margin-right: 10px;margin-left: 0;margin-bottom: 10px;position: relative;}
+#fittings li span{position: absolute;left: 0;top:0;width: 280px;height: 60px;background-color: rgba(0,0,0,0.4);padding-top: 150px;display: none;}
+#fittings li span p{color: #fff;font-size: 16px;font-weight: normal;height: 26px;line-height: 26px;}
+#fittings li:hover{border-color:#d3d1d1;}
+#fittings li:hover span{display: block;}
+#fittings{padding-bottom: 80px;}
+
+/*-------------------------------------产品详情页-----------------------------------*/
+.product_details .main{padding-bottom: 40px;}
+.product_details .path{height: 50px;line-height: 50px;}
+.product_details .picList{float: left;margin-right: 38px;}
+.picList ul{border: 1px solid #ccc;width: 570px;height: 515px;overflow: hidden;}
+.picList ul li img{width: 100%;}
+.productText{float: left;width: 590px;overflow: hidden;}
+.productText h3{line-height: 50px;height: 50px;font-size: 24px;}
+.productText p{height: 26px;line-height: 26px;font-size: 16px;}
+.productText .sale{color: red;}
+.productText>div {width: 100%;height: 40px;}
+.productText .priceBox{width: 100%;height: 80px;background-color: #f1f1f1;margin: 20px 0;line-height: 80px;}
+.productText .price{font-size: 26px;color: #b30601;font-weight: bolder;}
+.productText .tags{width: 80px;float: left;text-align: right;margin-right: 20px;}
+.productText .con{float: left;}
+.productText li{float: left;padding: 3px 8px;border: 1px solid #C4C4C4;margin-right: 15px;}
+.productText ul li:hover{border-color: #b30601;cursor: pointer;}
+.productText ul .active{border-color: #b30601;}
+.productText .num{position: relative;}
+.productText .num input{width: 50px;height: 30px;border: 1px solid #C4C4C4;padding-left: 25px;}
+.productText .num span{width: 15px;height: 14px;line-height: 14px;border: 1px solid #C4C4C4;position: absolute;text-align: center;cursor: pointer;font-size: 12px;}
+.productText .num span:nth-child(2){right: 0;top: 0;border-bottom: none;height: 15px;}
+.productText .num span:nth-child(3){right: 0;bottom: 0;}
+.productText .support{padding: 20px 0 10px 0;border-top: 1px solid #C4C4C4;border-bottom: 1px solid #C4C4C4;margin-top: 15px;}
+.productText .support li{border: none;cursor: none;}
+.productText .clickBtn{width: 180px;height: 40px;line-height: 40px;margin-right: 20px;margin-top: 25px;cursor: pointer;background-color: #666;color: #fff;}
+.productText .buy{background-color: #b30601;}
+.product_details h3{height: 45px;line-height: 45px;}
